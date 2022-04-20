@@ -16,13 +16,13 @@
 			"question": "-",
 			"answers": ["I ve III",  "II",  "III",  "V" ],
 			"correct": 3,
-			"picture": "/Picture1.png"
+			"picture": "/images/Picture1.png"
 		},
 		{
 			"question": "-",
 			"answers": ["Besin zinciri oluşması için sıralama 1 → 4 → 2 → 3 şeklinde olmalıdır.",  "Enerji aktarımının en yüksek olduğu canlı grubu 2’dir.",  "2. canlının sayısı artarken, 4. canlının sayısı azalır, 3. canlı sayısı artar.",  " 1, 2, 3 ve 4. canlıların ölümünden sonra ayrıştırıcılar görev alır." ],
 			"correct": 1,
-			"picture": "/Picture2.png"
+			"picture": "/images/Picture2.png"
 		},
 		{
 			"question":"DDT (bir çeşit böcek öldürücü ilaç), siyanür, bazı ağır metaller ve radyoaktif maddeler besin zincirini oluşturan\nfarklı trofik düzeylerdeki organizmaların dokularında gittikçe artan oranda birikir ve zararlı\n konsantrasyon düzeyine ulaşabilir. Bu olaya biyolojik birikim denir.\nBuna göre, bir sucul ekosistemine karışan bir zehirli maddenin aynı besin zincirinde yer alan aşağıdaki\ncanlılardan hangisinin dokusunda biyolojik birikim en fazla olur?",
@@ -34,7 +34,7 @@
 			"question": "-",
 			"answers": ["Küçük balık sayısı azalır.", "Ototrof canlı sayısı artar.", "Bitkisel planktonlar azalır.", "Ton balıkları olumsuz etkilenir"],
 			"correct": 2,	
-			"picture": "/Picture5.png"
+			"picture": "/images/Picture5.png"
 		},
 		{
 			"question": "Organizmalarda biyolojik birikimin sebepleri bu maddelerin;\n\nI. Daha çok yağda çözünerek yağ dokuda depo edilmesi\nII. Canlı metabolizması tarafından farklı ürünlere dönüştürülmesi\nIII. Vücuttan atılamaması\n\nGibi özelliklerden hangilerine sahip olmasıdır?",
@@ -46,7 +46,7 @@
 			"question": "-",
 			"answers": ["I, II ve III", "Yalnız II", "Yalnız III", "I ve III"],
 			"correct": 1,
-			"picture": "/Picture6.png"
+			"picture": "/images/Picture6.png"
 		}
 	]
 }
