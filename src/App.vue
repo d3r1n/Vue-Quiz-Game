@@ -79,12 +79,12 @@ export default {
 			if (state == 'correct') {
 				this.correct++
 				// play a random audio from array
-				let audio_arr = ["/amogus.mp3", "/lessgo.mp3"]
+				let audio_arr = ["/sounds/amogus.mp3", "/sounds/lessgo.mp3"]
 				let audio = new Audio(audio_arr[Math.floor(Math.random() * audio_arr.length)])
 				audio.play()
 			} else {
 				this.wrong++
-				let audio = new Audio("/boom.mp3")
+				let audio = new Audio("/sounds/boom.mp3")
 				audio.play()
 			}
 		}
