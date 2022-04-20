@@ -1,0 +1,52 @@
+{
+	"questions": [
+		{
+			"question": "\nBir ekosistemde;\n\nI. iklim şartları,\nII. besin miktarı,\nIII. avcı sayısı,\nIV. tarım ilaçları\n\nGibi faktörlerden hangilerinin etkisinin değişmesi\nbesin zincirindeki canlılardan herhangi birinin sayısını\nazaltabilir?",
+			"answers": ["Yalnız II", "Yalnız IV", "II, III ve IV", "I, II, III ve IV"],
+			"correct": 3,
+			"picture": "-"
+		},
+		{
+			"question": "Ekosistemdeki madde ve enerji akışıyla ilgili aşağıdaki yargılardan hangisi doğru değildir?",
+			"answers": ["Biyosferde enerji akışı tek yönde üreticilerden tüketicilere doğru gerçekleşir.", " Ekosistemlerde madde ve enerji akışının dengede kalması üretici, tüketici ve ayrıştırıcı canlılarla sağlanır.", "Enerji akışının durduğu canlılar besin piramidinin en üstünde yer alır.", " Besin ağlarında besin maddeleri trofik düzeylerden geçerken her basamaktaki toplam enerjinin %10’u bir üst basamağa aktarılır."],
+			"correct": 2,
+			"picture": "-"
+		},
+		{
+			"question": "-",
+			"answers": ["I ve III",  "II",  "III",  "V" ],
+			"correct": 3,
+			"picture": "/Picture1.png"
+		},
+		{
+			"question": "-",
+			"answers": ["Besin zinciri oluşması için sıralama 1 → 4 → 2 → 3 şeklinde olmalıdır.",  "Enerji aktarımının en yüksek olduğu canlı grubu 2’dir.",  "2. canlının sayısı artarken, 4. canlının sayısı azalır, 3. canlı sayısı artar.",  " 1, 2, 3 ve 4. canlıların ölümünden sonra ayrıştırıcılar görev alır." ],
+			"correct": 1,
+			"picture": "/Picture2.png"
+		},
+		{
+			"question":"DDT (bir çeşit böcek öldürücü ilaç), siyanür, bazı ağır metaller ve radyoaktif maddeler besin zincirini oluşturan\nfarklı trofik düzeylerdeki organizmaların dokularında gittikçe artan oranda birikir ve zararlı\n konsantrasyon düzeyine ulaşabilir. Bu olaya biyolojik birikim denir.\nBuna göre, bir sucul ekosistemine karışan bir zehirli maddenin aynı besin zincirinde yer alan aşağıdaki\ncanlılardan hangisinin dokusunda biyolojik birikim en fazla olur?",
+			"answers": ["Penguen",  "Herbivor plankton",  "Fok balığı",  "Fitoplankton" ],
+			"correct": 2,
+			"picture": "-"
+		},
+		{
+			"question": "-",
+			"answers": ["Küçük balık sayısı azalır.", "Ototrof canlı sayısı artar.", "Bitkisel planktonlar azalır.", "Ton balıkları olumsuz etkilenir"],
+			"correct": 2,	
+			"picture": "/Picture5.png"
+		},
+		{
+			"question": "Organizmalarda biyolojik birikimin sebepleri bu maddelerin;\n\nI. Daha çok yağda çözünerek yağ dokuda depo edilmesi\nII. Canlı metabolizması tarafından farklı ürünlere dönüştürülmesi\nIII. Vücuttan atılamaması\n\nGibi özelliklerden hangilerine sahip olmasıdır?",
+			"answers": ["I ve II", "Yalnız I", "I, II ve III", "I, II ve IV"],
+			"correct": 0,
+			"picture": "-"
+		},
+		{
+			"question": "-",
+			"answers": ["I, II ve III", "Yalnız II", "Yalnız III", "I ve III"],
+			"correct": 1,
+			"picture": "/Picture6.png"
+		}
+	]
+}

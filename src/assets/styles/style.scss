@@ -1,0 +1,251 @@
+@import "nord.scss";
+
+body {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: $nord0;
+	font-family: 'JetBrains Mono', monospace;
+
+	padding: 0;
+	margin: 0;
+}
+
+.main-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.score {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+.score #correct {
+	font-size: 24px;
+	color: $nord7;
+	margin-right: 15px;
+}
+
+.score #wrong {
+	font-size: 24px;
+	color: $nord11;
+}
+
+.question {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.question-content {
+
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 15px;
+	background-color: $nord2;
+	margin-bottom: 30px;
+
+	p {
+		width: 100%;
+		font-size: 18px;
+		color: $nord4;
+		white-space: pre-line;
+		padding: 0;
+		margin: 0;
+		text-align: left;
+		padding: 25px;
+	}
+}
+
+.question img {
+
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 15px;
+	background-color: $nord2;
+	margin-bottom: 30px;
+
+	padding: 20px;
+}
+
+.question-answers {
+
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	margin-bottom: 30px;
+}
+
+.question-answer {
+	width: 100%;
+	
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+
+	background-color: $nord2;
+	color: $nord4;
+}
+
+.btn-prev {
+	margin-right: 15px;
+}
+
+.btn {
+    background: $nord1;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.btn-front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: $nord2;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.btn:active .btn-front {
+    transform: translateY(-2px);
+}
+
+.correct {
+	background-color: $nord7;
+}
+
+.wrong {
+	background-color: $nord11;
+}
+
+.question-answer:last-child {
+	margin-bottom: 0;
+}
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	animation: jello-horizontal 0.9s both;
+}
+
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.8s ease-in-out both;
+	animation: scale-in-center 0.8s ease-in-out both;
+}
+
+@-webkit-keyframes scale-in-center {
+	0% {
+	  -webkit-transform: scale(0);
+			transform: scale(0);
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			transform: scale(1);
+	  opacity: 1;
+	}
+  }
+  @keyframes scale-in-center {
+	0% {
+	  -webkit-transform: scale(0);
+			transform: scale(0);
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			transform: scale(1);
+	  opacity: 1;
+	}
+  }
+
+@-webkit-keyframes jello-horizontal {
+	0% {
+	  -webkit-transform: scale3d(1, 1, 1);
+			  transform: scale3d(1, 1, 1);
+	}
+	30% {
+	  -webkit-transform: scale3d(1.25, 0.75, 1);
+			  transform: scale3d(1.25, 0.75, 1);
+	}
+	40% {
+	  -webkit-transform: scale3d(0.75, 1.25, 1);
+			  transform: scale3d(0.75, 1.25, 1);
+	}
+	50% {
+	  -webkit-transform: scale3d(1.15, 0.85, 1);
+			  transform: scale3d(1.15, 0.85, 1);
+	}
+	65% {
+	  -webkit-transform: scale3d(0.95, 1.05, 1);
+			  transform: scale3d(0.95, 1.05, 1);
+	}
+	75% {
+	  -webkit-transform: scale3d(1.05, 0.95, 1);
+			  transform: scale3d(1.05, 0.95, 1);
+	}
+	100% {
+	  -webkit-transform: scale3d(1, 1, 1);
+			  transform: scale3d(1, 1, 1);
+	}
+  }
+  @keyframes jello-horizontal {
+	0% {
+	  -webkit-transform: scale3d(1, 1, 1);
+			  transform: scale3d(1, 1, 1);
+	}
+	30% {
+	  -webkit-transform: scale3d(1.25, 0.75, 1);
+			  transform: scale3d(1.25, 0.75, 1);
+	}
+	40% {
+	  -webkit-transform: scale3d(0.75, 1.25, 1);
+			  transform: scale3d(0.75, 1.25, 1);
+	}
+	50% {
+	  -webkit-transform: scale3d(1.15, 0.85, 1);
+			  transform: scale3d(1.15, 0.85, 1);
+	}
+	65% {
+	  -webkit-transform: scale3d(0.95, 1.05, 1);
+			  transform: scale3d(0.95, 1.05, 1);
+	}
+	75% {
+	  -webkit-transform: scale3d(1.05, 0.95, 1);
+			  transform: scale3d(1.05, 0.95, 1);
+	}
+	100% {
+	  -webkit-transform: scale3d(1, 1, 1);
+			  transform: scale3d(1, 1, 1);
+	}
+  }
+  
+  
